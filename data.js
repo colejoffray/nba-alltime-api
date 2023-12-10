@@ -1735,6 +1735,1592 @@ const chrisBosh = new Players(
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 
+//milwaukee bucks 
+const oscarRobertson = new Players(
+    'Point Guard',
+    'Oscar Robertson',
+    '1960–1974',
+    '6\'5"',
+    '220 lbs',
+    25.7,
+    7.5,
+    9.5,
+    'unknown',
+    'unknown',
+    '48.5%',
+    'unknown',
+    'Averaged 25.7 points, 9.5 assists, and 7.5 rebounds in 1,040 regular-season games. A 12-time NBA All-Star and one of the greatest all-around players in NBA history.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Foscar-robertson-milwaukee-bucks-min--4k11k2hv.png&w=750&h=750&f=webp'
+);
+
+const sidneyMoncrief = new Players(
+    'Shooting Guard',
+    'Sidney Moncrief',
+    '1979–1991',
+    '6\'3"',
+    '180 lbs',
+    15.6,
+    4.7,
+    3.6,
+    1.2,
+    0.3,
+    '50.2%',
+    '33.0%',
+    'Averaged 15.6 points, 3.6 assists, and 4.7 rebounds in 767 regular-season games. A five-time NBA All-Star and two-time NBA Defensive Player of the Year.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fsidney-moncrief-milwaukee-bucks-min--4n1n3bba.png&w=750&h=750&f=webp'
+);
+
+const marquesJohnson = new Players(
+    'Small Forward',
+    'Marques Johnson',
+    '1977–1989',
+    '6\'7"',
+    '218 lbs',
+    20.1,
+    7.0,
+    3.6,
+    1.3,
+    0.5,
+    '51.2%',
+    '21.6%',
+    'Averaged 20.1 points, 3.6 assists, and 7.0 rebounds in 691 regular-season games. A five-time NBA All-Star known for his scoring and versatility.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fmarques-johnson-milwaukee-bucks-min--x0mltpgr.png&w=750&h=750&f=webp'
+);
+
+const giannisAntetokounmpo = new Players(
+    'Power Forward',
+    'Giannis Antetokounmpo',
+    '2013–present',
+    '6\'11"',
+    '242 lbs',
+    27.0,
+    12.5,
+    5.9,
+    1.3,
+    1.4,
+    '55.1%',
+    '28.4%',
+    'Averaged 27.0 points, 5.9 assists, and 12.5 rebounds in 587 regular-season games. A two-time NBA MVP and NBA Defensive Player of the Year known for his athleticism and versatility.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fgiannis-antetokounmpo-milwaukee-bucks-min--04a0sfsd.png&w=750&h=750&f=webp'
+);
+
+const kareemAbdulJabbarBucks = new Players(
+    'Center',
+    'Kareem Abdul-Jabbar',
+    '1969–1989',
+    '7\'2"',
+    '225 lbs',
+    24.6,
+    11.2,
+    3.6,
+    'unknown',
+    'unknown',
+    '55.9%',
+    'unknown',
+    'Averaged 24.6 points, 11.2 rebounds, and 3.6 assists in 1,560 regular-season games. A 19-time NBA All-Star and the NBA\'s all-time leading scorer known for his unstoppable skyhook shot.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkareem-abdul-jabbar-milwaukee-bucks-min--dcxlc2c1.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man
+const rayAllen = new Players(
+    'Sixth Man',
+    'Ray Allen',
+    '1996–2014',
+    '6\'5"',
+    '214 lbs',
+    18.9,
+    4.1,
+    3.4,
+    1.1,
+    0.2,
+    '45.2%',
+    '40.0%',
+    'Averaged 18.9 points, 3.4 assists, and 4.1 rebounds in 1,300 regular-season games. A 10-time NBA All-Star and two-time NBA champion known for his three-point shooting and clutch performances.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fray-allen-milwaukee-bucks-min--3jk7dejf.png&w=750&h=750&f=webp'
+);
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+//minnesota timberwolves
+
+const samCassell = new Players(
+    'Point Guard',
+    'Sam Cassell',
+    '1993–2008',
+    '6\'3"',
+    '185 lbs',
+    15.7,
+    3.2,
+    6.0,
+    1.9,
+    0.2,
+    '45.5%',
+    '32.7%',
+    'Averaged 15.7 points, 6.0 assists, and 3.2 rebounds in 993 regular-season games. A three-time NBA All-Star known for his leadership and clutch performances.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fsam-cassell-minnesota-timberwolves-min--chm0v1nd.png&w=750&h=750&f=webp'
+);
+
+const tomGugliotta = new Players(
+    'Shooting Guard',
+    'Tom Gugliotta',
+    '1992–2005',
+    '6\'10"',
+    '240 lbs',
+    13.0,
+    7.3,
+    2.8,
+    1.1,
+    0.4,
+    '45.7%',
+    '32.5%',
+    'Averaged 13.0 points, 2.8 assists, and 7.3 rebounds in 763 regular-season games. A NBA All-Star known for his versatility and scoring ability.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Ftom-gugliotta-minnesota-timberwolves-min--40orxtpx.png&w=750&h=750&f=webp'
+);
+
+const kevinLove = new Players(
+    'Small Forward',
+    'Kevin Love',
+    '2008–present',
+    '6\'8"',
+    '251 lbs',
+    18.3,
+    11.3,
+    2.3,
+    0.8,
+    0.5,
+    '44.2%',
+    '37.0%',
+    'Averaged 18.3 points, 2.3 assists, and 11.3 rebounds in 642 regular-season games. A five-time NBA All-Star known for his rebounding and three-point shooting.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkevin-love-minnesota-timberwolves-min--vjdq1mfw.png&w=750&h=750&f=webp'
+);
+
+const kevinGarnett = new Players(
+    'Power Forward',
+    'Kevin Garnett',
+    '1995–2016',
+    '6\'11"',
+    '240 lbs',
+    17.8,
+    10.0,
+    3.7,
+    1.3,
+    1.4,
+    '49.7%',
+    '27.5%',
+    'Averaged 17.8 points, 3.7 assists, and 10.0 rebounds in 1,462 regular-season games. A 15-time NBA All-Star and one of the greatest power forwards known for his intensity and defense.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkevin-garnett-minnesota-timberwolves-min--9fwb33cb.png&w=750&h=750&f=webp'
+);
+
+const karlAnthonyTowns = new Players(
+    'Center',
+    'Karl-Anthony Towns',
+    '2015–present',
+    '7\'0"',
+    '248 lbs',
+    24.9,
+    10.5,
+    4.2,
+    0.8,
+    1.4,
+    '51.2%',
+    '39.6%',
+    'Averaged 24.9 points, 4.2 assists, and 10.5 rebounds in 396 regular-season games. A two-time NBA All-Star known for his scoring and rebounding as a versatile big man.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkarl-anthony-towns-minnesota-timberwolves-min--nvbuhwfa.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man
+const stephenMarbury = new Players(
+    'Sixth Man',
+    'Stephen Marbury',
+    '1996–2009',
+    '6\'2"',
+    '180 lbs',
+    19.3,
+    3.0,
+    7.6,
+    1.2,
+    0.2,
+    '43.3%',
+    '32.9%',
+    'Averaged 19.3 points, 7.6 assists, and 3.0 rebounds in 846 regular-season games. A two-time NBA All-Star known for his scoring and playmaking abilities.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fstephon-marbury-minnesota-timberwolves-min--m6jtr4e8.png&w=750&h=750&f=webp'
+);
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+//pelicans 
+
+const chrisPaulPelicans = new Players(
+    'Point Guard',
+    '2005–present',
+    '6\'1"',
+    '175 lbs',
+    18.7,
+    4.5,
+    9.7,
+    2.2,
+    0.2,
+    '47.0%',
+    '37.0%',
+    'An elite playmaker with a knack for clutch performances, this guard\'s court vision and leadership have left an indelible mark on the game.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fchris-paul-new-orleans-pelicans-min--6trvnk1b.png&w=750&h=750&f=webp'
+);
+
+const jrueHoliday = new Players(
+    'Shooting Guard',
+    '2009–present',
+    '6\'3"',
+    '205 lbs',
+    15.6,
+    4.0,
+    6.3,
+    1.5,
+    0.5,
+    '45.3%',
+    '35.9%',
+    'A defensive stalwart and a reliable scorer, this shooting guard\'s two-way prowess has been a cornerstone in basketball history.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fjrue-holiday-new-orleans-pelicans-min--k9nck5oh.png&w=750&h=750&f=webp'
+);
+
+const brandonIngram = new Players(
+    'Small Forward',
+    '2016–present',
+    '6\'7"',
+    '190 lbs',
+    19.5,
+    5.3,
+    3.7,
+    1.0,
+    0.7,
+    '46.8%',
+    '37.2%',
+    'Versatile and a prolific scorer, this small forward\'s growth continues to elevate the game, showcasing a unique blend of skill and athleticism.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fbrandon-ingram-new-orleans-pelicans-min--6cyw6wyj.png&w=750&h=750&f=webp'
+);
+
+const anthonyDavis = new Players(
+    'Power Forward',
+    '2012–present',
+    '6\'10"',
+    '253 lbs',
+    24.0,
+    10.4,
+    2.4,
+    1.5,
+    2.4,
+    '51.7%',
+    '32.2%',
+    'A dominant force in the paint with a remarkable impact on both ends, this power forward has been the defensive anchor throughout their career.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fanthony-davis-new-orleans-pelicans-min--5bwwv8ie.png&w=750&h=750&f=webp'
+);
+
+const davidWest = new Players(
+    'Center',
+    '2003–2018',
+    '6\'9"',
+    '250 lbs',
+    13.6,
+    6.4,
+    2.2,
+    0.9,
+    0.8,
+    '49.0%',
+    '29.6%',
+    'Known for tenacity in the paint and leadership qualities, this center\'s contributions have established a lasting legacy in the game.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fdavid-west-new-orleans-pelicans-min--b3g10frl.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man
+const zionWilliamson = new Players(
+    'Sixth Man',
+    '2019–present',
+    '6\'7"',
+    '284 lbs',
+    25.7,
+    7.0,
+    3.4,
+    0.9,
+    0.6,
+    '61.1%',
+    '32.0%',
+    'A rising star with explosive athleticism, this player\'s impact brings excitement and energy to the game.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fzion-williamson-new-orleans-pelicans-min--azhtenyz.png&w=750&h=750&f=webp'
+)
+
+
+
+/////////////
+
+//knicks 
+// Walt Frazier
+const waltFrazier = new Players(
+    'Point Guard',
+    '1967–1980',
+    '6\'4"',
+    '205 lbs',
+    18.9,
+    5.9,
+    6.1,
+    1.9,
+    0.3,
+    '49.0%',
+    '30.0%',
+    'A smooth operator on the court, this point guard\'s style and flair have made them a legend in NBA history. A multiple-time All-Star and key contributor to championship success.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fwalt-frazier-new-york-knicks-min--2m8x8c2k.png&w=750&h=750&f=webp'
+);
+
+// Richie Guerin
+const richieGuerin = new Players(
+    'Shooting Guard',
+    '1956–1970',
+    '6\'4"',
+    '195 lbs',
+    17.3,
+    5.0,
+    5.0,
+    'unknown',
+    'unknown',
+    '41.1%',
+    '27.3%',
+    'A versatile guard with scoring prowess, this shooting guard\'s impact on both ends of the floor is etched in NBA history. A multiple-time All-Star and leader on the court.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Frichie-guerin-new-york-knicks-min--76exl6l4.png&w=750&h=750&f=webp'
+);
+
+// Carmelo Anthony
+const carmeloAnthonyKnicks = new Players(
+    'Small Forward',
+    '2003–present',
+    '6\'7"',
+    '238 lbs',
+    23.9,
+    6.6,
+    2.9,
+    0.8,
+    0.5,
+    '44.6%',
+    '34.5%',
+    'A scoring maestro with a lethal offensive arsenal, this small forward\'s tenure has left an indelible mark on the game. A perennial All-Star and scoring champion.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fcarmelo-anthony-new-york-knicks-min--2ujshv8x.png&w=750&h=750&f=webp'
+);
+
+// Willis Reed
+const willisReed = new Players(
+    'Power Forward',
+    '1964–1974',
+    '6\'9"',
+    '235 lbs',
+    18.7,
+    12.9,
+    1.8,
+    'unknown',
+    'unknown',
+    '47.6%',
+    '30.2%',
+    'A dominant force in the paint and a two-time NBA champion, this power forward\'s leadership fueled success. A Finals MVP and perennial All-Star.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fwillis-reed-new-york-knicks-min--3btdum0b.png&w=750&h=750&f=webp'
+);
+
+// Patrick Ewing
+const patrickEwing = new Players(
+    'Center',
+    '1985–2002',
+    '7\'0"',
+    '240 lbs',
+    21.0,
+    9.8,
+    1.9,
+    1.0,
+    2.4,
+    '50.2%',
+    '27.8%',
+    'A Hall of Famer and the face of the franchise, this center\'s impact is immeasurable, embodying resilience and skill. An 11-time All-Star and key figure in franchise history.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fpatrick-ewing-new-york-knicks-min--npl8pofl.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man - Allan Houston
+const allanHouston = new Players(
+    'Sixth Man',
+    '1993–2005',
+    '6\'6"',
+    '200 lbs',
+    17.3,
+    2.9,
+    2.4,
+    0.8,
+    0.1,
+    '44.1%',
+    '40.2%',
+    'A sharpshooter and clutch performer, this player\'s scoring ability played a pivotal role in success. A key contributor to deep playoff runs.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fallan-houston-new-york-knicks-min--0z3vkvhx.png&w=750&h=750&f=webp'
+);
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+//okc 
+
+// Russell Westbrook
+const russellWestbrook = new Players(
+    'Point Guard',
+    '2008–2021',
+    '6\'3"',
+    '200 lbs',
+    23.0,
+    7.0,
+    8.4,
+    1.7,
+    0.3,
+    '43.7%',
+    '30.2%',
+    'An explosive point guard known for triple-doubles and relentless energy. A former MVP and multiple-time All-Star, this player defined an era in OKC.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Frussell-westbrook-oklahoma-city-thunder-min--a8rgh6hi.png&w=750&h=750&f=webp'
+);
+
+// Gary Payton
+const garyPayton = new Players(
+    'Shooting Guard',
+    '1990–2007',
+    '6\'4"',
+    '180 lbs',
+    16.3,
+    3.9,
+    6.7,
+    1.8,
+    0.2,
+    '46.6%',
+    '32.6%',
+    'A defensive maestro and floor general, this Hall of Fame point guard left an indelible mark on the game. Known for lockdown defense and leadership.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fgary-payton-oklahoma-city-thunder-min--byb7a1yt.png&w=750&h=750&f=webp'
+);
+
+// Ray Allen
+const rayAllenOKC = new Players(
+    'Small Forward',
+    '1996–2014',
+    '6\'5"',
+    '214 lbs',
+    18.9,
+    4.1,
+    3.4,
+    1.1,
+    0.2,
+    '45.2%',
+    '40.0%',
+    'One of the greatest shooters in NBA history, this small forward made clutch shots and won championships. A 10-time All-Star and three-time NBA champion.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fray-allen-oklahoma-city-thunder-min--3br1icv2.png&w=750&h=750&f=webp'
+);
+
+// Kevin Durant
+const kevinDurantOKC = new Players(
+    'Power Forward',
+    '2007–2016',
+    '6\'10"',
+    '240 lbs',
+    27.4,
+    7.0,
+    3.9,
+    1.1,
+    1.0,
+    '49.7%',
+    '38.1%',
+    'An elite scorer and versatile forward, this player was the face of the franchise. A former MVP, multiple-time scoring champion, and NBA Finals MVP.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkevin-durant-oklahoma-city-thunder-min--25pawvxv.png&w=750&h=750&f=webp'
+);
+
+// Shawn Kemp
+const shawnKemp = new Players(
+    'Center',
+    '1989–2003',
+    '6\'10"',
+    '230 lbs',
+    14.6,
+    8.4,
+    1.8,
+    1.1,
+    1.2,
+    '48.9%',
+    '29.0%',
+    'A high-flying, powerful center known for thunderous dunks and shot-blocking. A six-time All-Star and key figure in the early success of the franchise.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fshawn-kemp-oklahoma-city-thunder-min--2e2n9ab2.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man - Paul George
+const paulGeorgeOKC = new Players(
+    'Sixth Man',
+    '2010–present',
+    '6\'8"',
+    '220 lbs',
+    20.0,
+    6.4,
+    3.4,
+    1.7,
+    0.4,
+    '43.9%',
+    '38.3%',
+    'An elite two-way player with scoring prowess and defensive skills. A multiple-time All-Star and key contributor to deep playoff runs.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fpaul-george-oklahoma-city-thunder-min--3b4gys6s.png&w=750&h=750&f=webp'
+);
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+// Penny Hardaway
+const pennyHardaway = new Players(
+    'Point Guard',
+    '1993–2008',
+    '6\'7"',
+    '220 lbs',
+    15.2,
+    4.5,
+    6.3,
+    1.6,
+    0.4,
+    '45.0%',
+    '32.0%',
+    'A versatile and dynamic point guard known for his size, playmaking, and scoring ability. A four-time All-Star and integral part of successful teams.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fpenny-hardaway-orlando-magic-min--vkvbi6ug.png&w=750&h=750&f=webp'
+);
+
+// Tracy McGrady
+const tracyMcGradyMagic = new Players(
+    'Shooting Guard',
+    '1997–2013',
+    '6\'8"',
+    '210 lbs',
+    19.6,
+    5.6,
+    4.4,
+    1.2,
+    0.9,
+    '43.5%',
+    '32.7%',
+    'A scoring sensation and seven-time All-Star, this shooting guard was known for his scoring ability and versatility on the court.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Ftracy-mcgrady-orlando-magic-min--0vmhdqnp.png&w=750&h=750&f=webp'
+);
+
+// Hedo Turkoglu
+const hedoTurkoglu = new Players(
+    'Small Forward',
+    '2000–2015',
+    '6\'10"',
+    '220 lbs',
+    11.1,
+    4.0,
+    3.1,
+    0.8,
+    0.2,
+    '42.9%',
+    '38.0%',
+    'A skilled and versatile forward known for his playmaking ability and clutch performances. Played a key role in playoff runs and Finals appearances.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fhedo-turkoglu-orlando-magic-min--tqcl3ytj.png&w=750&h=750&f=webp'
+);
+
+// Rashard Lewis
+const rashardLewis = new Players(
+    'Power Forward',
+    '1998–2014',
+    '6\'10"',
+    '230 lbs',
+    14.9,
+    5.2,
+    1.7,
+    1.0,
+    0.6,
+    '45.2%',
+    '38.6%',
+    'A skilled power forward known for his scoring and three-point shooting. Played a crucial role in his teams success, making multiple All-Star appearances.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Frashard-lewis-orlando-magic-min--ou3u1xkx.png&w=750&h=750&f=webp'
+);
+
+// Dwight Howard
+const dwightHoward = new Players(
+    'Center',
+    '2004–present',
+    '6\'10"',
+    '265 lbs',
+    16.7,
+    12.3,
+    1.4,
+    0.8,
+    1.9,
+    '58.6%',
+    '26.9%',
+    'A dominant center known for his athleticism, shot-blocking, and rebounding. A multiple-time Defensive Player of the Year and key figure in playoff runs.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fdwiht-howard-orlando-magic-min--1e1wghyq.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man - Shaquille O'Neal
+const shaqONeal = new Players(
+    'Sixth Man',
+    '1992–2011',
+    '7\'1"',
+    '325 lbs',
+    23.7,
+    10.9,
+    2.5,
+    0.6,
+    2.3,
+    '58.2%',
+    '25.0%',
+    'A dominant force in the paint, this Hall of Fame center was known for his scoring, rebounding, and charisma. A multiple-time NBA champion and MVP.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fshaquille-oneal-orlando-magic-min--l3kn3pi3.png&w=750&h=750&f=webp'
+);
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+//76ers 
+
+// Allen Iverson
+const allenIverson76ers = new Players(
+    'Point Guard',
+    '1996–2010',
+    '6\'0"',
+    '165 lbs',
+    26.7,
+    3.7,
+    6.2,
+    2.2,
+    0.2,
+    '42.5%',
+    '31.3%',
+    'A scoring machine and cultural icon, this point guard carried the team with his fearless style. An 11-time All-Star, MVP, and 2001 NBA Finals participant.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fallen-iverson-philadelphia-76ers-min--0nw9gk4e.png&w=750&h=750&f=webp'
+);
+
+// Julius Irving
+const juliusIrving76ers = new Players(
+    'Shooting Guard',
+    '1976–1987',
+    '6\'6"',
+    '220 lbs',
+    22.0,
+    6.7,
+    3.9,
+    1.8,
+    1.5,
+    '50.7%',
+    '26.1%',
+    'A basketball legend known for his innovative style and high-flying dunks. A multiple-time MVP, NBA champion, and integral part of the team\'s history.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fjulius-erving-philadelphia-76ers-min--hwetcjbp.png&w=750&h=750&f=webp'
+);
+
+// Billy Cunningham
+const billyCunningham = new Players(
+    'Small Forward',
+    '1965–1976',
+    '6\'6"',
+    '210 lbs',
+    20.8,
+    10.1,
+    4.0,
+    'unknown',
+    'unknown',
+    '45.6%',
+    'unknown',
+    'A versatile forward with a well-rounded game. A multiple-time All-Star and key contributor to the team\'s success in the 1960s and 1970s.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fbilly-cunningham-philadelphia-76ers-min--bukapai8.png&w=750&h=750&f=webp'
+);
+
+// Moses Malone
+const mosesMalone76ers = new Players(
+    'Power Forward',
+    '1976–1995',
+    '6\'10"',
+    '215 lbs',
+    20.3,
+    12.3,
+    1.3,
+    1.3,
+    1.3,
+    '49.1%',
+    'unknown',
+    'A dominant force in the paint, this Hall of Famer led the team to an NBA championship. A three-time MVP and 12-time All-Star.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fmoses-malone-philadelphia-76ers-min--bbdyspk0.png&w=750&h=750&f=webp'
+);
+
+// Joel Embiid
+const joelEmbiid = new Players(
+    'Center',
+    '2014–present',
+    '7\'0"',
+    '280 lbs',
+    24.8,
+    11.3,
+    3.1,
+    1.4,
+    1.7,
+    '48.1%',
+    '32.8%',
+    'A dominant center with a versatile skill set. A multiple-time All-Star and key player in the team\'s recent success.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fjoel-embiid-philadelphia-76ers-min--97ylw7to.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man - Andre Iguodala
+const andreIguodala = new Players(
+    'Sixth Man',
+    '2004–present',
+    '6\'6"',
+    '215 lbs',
+    12.0,
+    5.1,
+    4.4,
+    1.5,
+    0.5,
+    '46.2%',
+    '33.3%',
+    'An athletic swingman known for his defense and versatility. A former NBA Finals MVP and integral part of championship-winning teams.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fandre-iguodala-philadelphia-76ers-min--gfy4leqn.png&w=750&h=750&f=webp'
+);
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+//suns 
+// Steve Nash
+const steveNash = new Players(
+    'Point Guard',
+    '1996–2014',
+    '6\'3"',
+    '178 lbs',
+    14.3,
+    3.0,
+    8.5,
+    0.7,
+    0.1,
+    '49.0%',
+    '42.8%',
+    'A two-time MVP and exceptional playmaker, this point guard orchestrated offenses with precision. Known for his shooting and passing skills.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fsteve-nash-phoenix-suns-min--r2peu-jt.png&w=750&h=750&f=webp'
+);
+
+// Devin Booker
+const devinBooker = new Players(
+    'Shooting Guard',
+    '2015–present',
+    '6\'5"',
+    '210 lbs',
+    23.9,
+    4.1,
+    4.4,
+    0.9,
+    0.2,
+    '44.9%',
+    '36.3%',
+    'A scoring machine and rising star, this shooting guard has a knack for putting up points. A two-time All-Star and key player for the franchise.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fdevin-booker-phoenix-suns-min--9nu4yoz0.png&w=750&h=750&f=webp'
+);
+
+// Shawn Marion
+const shawnMarion = new Players(
+    'Small Forward',
+    '1999–2015',
+    '6\'7"',
+    '220 lbs',
+    15.2,
+    8.7,
+    1.9,
+    1.5,
+    1.1,
+    '48.4%',
+    '33.1%',
+    'A versatile forward known for his unique playing style and defensive prowess. A four-time All-Star and NBA champion with a high-flying game.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fshawn-marion-phoenix-suns-min--2kbnmls7.png&w=750&h=750&f=webp'
+);
+
+// Charles Barkley
+const charlesBarkley = new Players(
+    'Power Forward',
+    '1984–2000',
+    '6\'6"',
+    '252 lbs',
+    22.1,
+    11.7,
+    3.9,
+    1.5,
+    0.8,
+    '54.1%',
+    '26.6%',
+    'A dominant and outspoken power forward, this player was a force on the court. An 11-time All-Star, MVP, and one of the greatest rebounders in history.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fcharles-barkley-phoenix-suns-min--3xxijgq8.png&w=750&h=750&f=webp'
+);
+
+// Amar'e Stoudemire
+const amareStoudemire = new Players(
+    'Center',
+    '2002–2016',
+    '6\'10"',
+    '249 lbs',
+    18.9,
+    7.8,
+    1.3,
+    0.8,
+    1.2,
+    '53.7%',
+    '28.9%',
+    'A high-flying center with explosive scoring ability, this player was a six-time All-Star and Rookie of the Year. A key figure for the franchise.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Famare-stoudemire-phoenix-suns-min--hsbvcfi0.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man - Dennis Johnson
+const dennisJohnson = new Players(
+    'Sixth Man',
+    '1976–1990',
+    '6\'4"',
+    '185 lbs',
+    14.1,
+    3.9,
+    5.0,
+    1.3,
+    0.3,
+    '45.6%',
+    '17.3%',
+    'A clutch performer and defensive stalwart, this guard was a key contributor off the bench. A three-time NBA champion and five-time All-Star.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fdennis-johnson-phoenix-suns-min--3uux8lsl.png&w=750&h=750&f=webp'
+);
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+//trail blazers
+// Damian Lillard
+const damianLillard = new Players(
+    'Point Guard',
+    '2012–present',
+    '6\'2"',
+    '195 lbs',
+    24.0,
+    4.2,
+    6.5,
+    1.0,
+    0.3,
+    '43.6%',
+    '37.6%',
+    'A dynamic point guard with deep shooting range and clutch performances. A multiple-time All-Star and leader of the team in both scoring and assists.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fdamian-lillard-portland-trail-blazers-min--fgb6gdky.png&w=750&h=750&f=webp'
+);
+
+// Clyde Drexler
+const clydeDrexlerBlazers = new Players(
+    'Shooting Guard',
+    '1983–1998',
+    '6\'7"',
+    '210 lbs',
+    20.4,
+    6.1,
+    5.6,
+    2.0,
+    0.7,
+    '47.2%',
+    '31.8%',
+    'A versatile and athletic shooting guard, this Hall of Famer excelled in scoring, rebounding, and playmaking. A 10-time All-Star and NBA champion.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fclyde-drexler-portland-trail-blazers-min--fxzirx1i.png&w=750&h=750&f=webp'
+);
+
+// Brandon Roy
+const brandonRoy = new Players(
+    'Small Forward',
+    '2006–2013',
+    '6\'6"',
+    '215 lbs',
+    18.8,
+    4.3,
+    4.7,
+    1.0,
+    0.3,
+    '45.9%',
+    '35.2%',
+    'A skilled small forward known for scoring and leadership. A three-time All-Star and Rookie of the Year, his career was cut short by injuries.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fbrandon-roy-portland-trail-blazers-min--b8bozgwg.png&w=750&h=750&f=webp'
+);
+
+// LaMarcus Aldridge
+const lamarcusAldridge = new Players(
+    'Power Forward',
+    '2006–2019',
+    '6\'11"',
+    '250 lbs',
+    19.4,
+    8.2,
+    2.0,
+    0.8,
+    1.1,
+    '49.1%',
+    '29.3%',
+    'A skilled and versatile power forward with a smooth mid-range game. A multiple-time All-Star and key player in the franchise during his tenure.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Flamarcus-aldridge-portland-trail-blazers-min--8olmgnik.png&w=750&h=750&f=webp'
+);
+
+// Bill Walton
+const billWalton = new Players(
+    'Center',
+    '1974–1987',
+    '6\'11"',
+    '210 lbs',
+    13.3,
+    10.5,
+    3.4,
+    2.2,
+    2.2,
+    '52.1%',
+    '27.3%',
+    'A dominant and versatile center, this Hall of Famer was a key figure in the team\'s championship success. A former MVP, Finals MVP, and multiple-time All-Star.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fbill-walton-portland-trail-blazers-min--4vagpnbr.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man - Maurice Lucas
+const mauriceLucas = new Players(
+    'Sixth Man',
+    '1976–1988',
+    '6\'9"',
+    '215 lbs',
+    14.4,
+    8.8,
+    2.3,
+    2.3,
+    0.3,
+    '47.3%',
+    '25.6%',
+    'A rugged and tough power forward, this player brought intensity off the bench. A key contributor to the team\'s success, winning an NBA championship.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fmaurice-lucas-portland-trail-blazers-min--iuh8b82s.png&w=750&h=750&f=webp'
+);
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+//kings 
+// Nate Archibald
+const nateArchibald = new Players(
+    'Point Guard',
+    '1970–1984',
+    '6\'1"',
+    '150 lbs',
+    18.8,
+    2.3,
+    7.4,
+    'unknown',
+    'unknown',
+    '46.7%',
+    '26.1%',
+    'A legendary point guard known for his speed and playmaking. A six-time All-Star, this player led the league in scoring and assists in the same season.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fnate-archibald-sacramento-kings-min--e5tnwiwk.png&w=750&h=750&f=webp'
+);
+
+// Oscar Robertson
+const oscarRobertsonKings = new Players(
+    'Shooting Guard',
+    '1960–1974',
+    '6\'5"',
+    '220 lbs',
+    25.7,
+    7.5,
+    9.5,
+    'unknown',
+    'unknown',
+    '48.5%',
+    '28.5%',
+    'One of the greatest guards in NBA history, this player averaged a triple-double for an entire season. A 12-time All-Star and former MVP.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Foscar-robertson-sacramento-kings-min--a7b1uqxn.png&w=750&h=750&f=webp'
+);
+
+// Mitch Richmond
+const mitchRichmond = new Players(
+    'Small Forward',
+    '1988–2002',
+    '6\'5"',
+    '220 lbs',
+    21.0,
+    3.9,
+    3.5,
+    1.2,
+    0.3,
+    '45.5%',
+    '38.8%',
+    'A dynamic scorer and shooting guard, this player was a key figure for the Kings. A six-time All-Star and former NBA champion.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fmitch-richmond-sacramento-kings-min--2ftldbfv.png&w=750&h=750&f=webp'
+);
+
+// Chris Webber
+const chrisWebber = new Players(
+    'Power Forward',
+    '1993–2008',
+    '6\'10"',
+    '245 lbs',
+    20.7,
+    9.8,
+    4.2,
+    1.4,
+    1.4,
+    '47.9%',
+    '29.9%',
+    'A skilled and versatile power forward, this player was the face of the franchise. A five-time All-Star and former Rookie of the Year.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fchris-webber-sacramento-kings-min--7ly06rbj.png&w=750&h=750&f=webp'
+);
+
+// DeMarcus Cousins
+const demarcusCousins = new Players(
+    'Center',
+    '2010–present',
+    '6\'10"',
+    '270 lbs',
+    21.2,
+    10.9,
+    3.2,
+    1.4,
+    1.2,
+    '45.8%',
+    '33.3%',
+    'A dominant center known for scoring and rebounding. A multiple-time All-Star and key figure for the Kings in recent years.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fdemarcus-cousins-sacramento-kings-min--g16ypkcs.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man - Jerry Lucas
+const jerryLucas = new Players(
+    'Sixth Man',
+    '1962–1974',
+    '6\'8"',
+    '230 lbs',
+    17.0,
+    15.6,
+    3.3,
+    'unknown',
+    'unknown',
+    '49.0%',
+    'unknown%',
+    'A versatile forward known for his scoring and rebounding. A seven-time All-Star and key contributor off the bench for the Kings.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fjerry-lucas-sacramento-kings-min--bcfyntap.png&w=750&h=750&f=webp'
+);
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+//spurs 
+// Tony Parker
+const tonyParkerSpurs = new Players(
+    'Point Guard',
+    '2001–2018',
+    '6\'2"',
+    '185 lbs',
+    15.5,
+    2.7,
+    5.6,
+    0.8,
+    0.1,
+    '49.1%',
+    '32.9%',
+    'A crafty and speedy point guard known for his clutch performances. A four-time NBA champion and Finals MVP, this player was a key part of a dynasty.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Ftony-parker-san-antonio-spurs-min--e6svyo9g.png&w=750&h=750&f=webp'
+);
+
+// George Gervin
+const georgeGervin = new Players(
+    'Shooting Guard',
+    '1972–1986',
+    '6\'7"',
+    '180 lbs',
+    26.2,
+    5.4,
+    2.8,
+    1.2,
+    1.0,
+    '50.4%',
+    '29.4%',
+    'A scoring machine and Hall of Famer, this shooting guard dominated with his smooth finger roll. A nine-time All-Star and four-time scoring champion.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fgeorge-gervin-san-antonio-spurs-min--ab3skzr7.png&w=750&h=750&f=webp'
+);
+
+// Kawhi Leonard
+const kawhiLeonardSpurs = new Players(
+    'Small Forward',
+    '2011–present',
+    '6\'7"',
+    '225 lbs',
+    18.8,
+    6.4,
+    2.7,
+    1.8,
+    0.7,
+    '49.3%',
+    '38.4%',
+    'A two-time NBA Finals MVP, this small forward is known for his defensive prowess and clutch performances. A two-time NBA champion and multiple-time All-Star.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkawhi-leonard-toronto-raptors-min--ayogzguv.png&w=750&h=750&f=webp'
+);
+
+// Tim Duncan
+const timDuncan = new Players(
+    'Power Forward',
+    '1997–2016',
+    '6\'11"',
+    '250 lbs',
+    19.0,
+    10.8,
+    3.0,
+    0.7,
+    2.2,
+    '50.6%',
+    '17.8%',
+    'An all-time great power forward and a fundamental force on both ends of the floor. A five-time NBA champion, three-time Finals MVP, and two-time MVP.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Ftim-duncan-san-antonio-spurs-min--5glfnbkf.png&w=750&h=750&f=webp'
+);
+
+// David Robinson
+const davidRobinson = new Players(
+    'Center',
+    '1989–2003',
+    '7\'1"',
+    '235 lbs',
+    21.1,
+    10.6,
+    2.5,
+    1.4,
+    3.0,
+    '51.8%',
+    '25.0%',
+    'A dominant and athletic center known as "The Admiral." A two-time NBA champion, MVP, and Defensive Player of the Year, this Hall of Famer left a lasting legacy.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fdavid-robinson-san-antonio-spurs-min--1n5lqsxg.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man - Manu Ginobili
+const manuGinobili = new Players(
+    'Sixth Man',
+    '2002–2018',
+    '6\'6"',
+    '205 lbs',
+    13.3,
+    3.5,
+    3.8,
+    1.3,
+    0.3,
+    '45.4%',
+    '36.9%',
+    'A dynamic and fearless sixth man who played a key role in his teams success. A four-time NBA champion and two-time NBA All-Star.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fmanu-ginobili-san-antonio-spurs-min--7styg53n.png&w=750&h=750&f=webp'
+);
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+//raptors
+
+
+// Kyle Lowry
+const kyleLowry = new Players(
+    'Point Guard',
+    '2006–2021',
+    '6\'0"',
+    '196 lbs',
+    14.0,
+    4.3,
+    6.2,
+    1.4,
+    0.3,
+    '41.6%',
+    '36.7%',
+    'Known for his tenacity and leadership, this point guard played a crucial role in a championship run, earning multiple All-Star appearances along the way.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkyle-lowry-toronto-raptors-min--bvyxbrhu.png&w=750&h=750&f=webp'
+);
+
+// Vince Carter
+const vinceCarterTOR = new Players(
+    'Shooting Guard',
+    '1998–2004',
+    '6\'6"',
+    '220 lbs',
+    23.4,
+    5.2,
+    4.3,
+    1.1,
+    1.0,
+    '43.7%',
+    '37.1%',
+    'A high-flying shooting guard, this player was a cornerstone of early success, showcasing incredible dunks and scoring prowess.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Ftoronto-raptors-vince-carter-min--3y5m2fco.png&w=750&h=750&f=webp'
+);
+
+// DeMar DeRozan
+const demarDerozan = new Players(
+    'Small Forward',
+    '2009–2021',
+    '6\'6"',
+    '220 lbs',
+    21.6,
+    4.2,
+    4.1,
+    1.0,
+    0.3,
+    '46.0%',
+    '28.6%',
+    'A skilled scorer and playmaker, this small forward was a key figure in success, earning multiple All-Star appearances with a smooth mid-range game.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fdemar-derozan-toronto-raptors-min--fpq4q1t7.png&w=750&h=750&f=webp'
+);
+
+// Chris Bosh
+const chrisBoshTOR = new Players(
+    'Power Forward',
+    '2003–2016',
+    '6\'10"',
+    '235 lbs',
+    19.2,
+    8.5,
+    2.0,
+    0.8,
+    1.0,
+    '49.0%',
+    '33.5%',
+    'An accomplished big man, this power forward contributed significantly to early success, earning multiple All-Star nods and showcasing a versatile game.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fchris-bosh-toronto-raptors-min--d5c2c3dd.png&w=750&h=750&f=webp'
+);
+
+// Pascal Siakam
+const pascalSiakam = new Players(
+    'Center',
+    '2016–present',
+    '6\'9"',
+    '230 lbs',
+    16.4,
+    6.8,
+    3.1,
+    1.0,
+    0.7,
+    '47.8%',
+    '34.4%',
+    'An energetic and versatile forward-center, this player played a key role in recent success, contributing to a championship-winning team.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fpascal-siakam-toronto-raptors-min--4ea3hca6.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man - Kawhi Leonard
+const kawhiLeonardTOR = new Players(
+    'Sixth Man',
+    '2018–2019',
+    '6\'7"',
+    '225 lbs',
+    26.9,
+    7.3,
+    3.5,
+    1.8,
+    0.6,
+    '48.9%',
+    '37.1%',
+    'A two-time NBA Finals MVP known for clutch performances, this player played a crucial role in delivering a first NBA championship.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkawhi-leonard-toronto-raptors-min--6or1tsh1.png&w=750&h=750&f=webp'
+);
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+//jazz 
+// John Stockton
+const johnStockton = new Players(
+    'Point Guard',
+    '1984–2003',
+    '6\'1"',
+    '175 lbs',
+    13.1,
+    2.7,
+    10.5,
+    2.2,
+    0.2,
+    '51.5%',
+    '38.4%',
+    'A legendary point guard and assist maestro, this Hall of Famer set the standard for floor leadership. All-time leader in assists and steals.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fjohn-stockton-toronto-raptors-min--2a8i6m42.png&w=750&h=750&f=webp'
+);
+
+// Pete Maravich
+const peteMaravich = new Players(
+    'Shooting Guard',
+    '1970–1980',
+    '6\'5"',
+    '197 lbs',
+    24.2,
+    4.2,
+    5.4,
+    1.4,
+    0.3,
+    '44.0%',
+    '32.7%',
+    'A flamboyant and creative scorer, this Hall of Fame guard left an indelible mark on the game. Known for his scoring prowess and ball-handling.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fpete-maravich-toronto-raptors-min--1op9lgua.png&w=750&h=750&f=webp'
+);
+
+// Adrian Dantley
+const adrianDantley = new Players(
+    'Small Forward',
+    '1976–1991',
+    '6\'5"',
+    '208 lbs',
+    24.3,
+    5.7,
+    3.0,
+    1.0,
+    0.1,
+    '54.0%',
+    '17.2%',
+    'A scoring machine and efficient forward, this Hall of Famer dominated opponents with his scoring ability and versatility on the court.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fadrian-dantley-toronto-raptors-min--1pj6kl6v.png&w=750&h=750&f=webp'
+);
+
+// Andrei Kirilenko
+const andreiKirilenko = new Players(
+    'Power Forward',
+    '2001–2015',
+    '6\'9"',
+    '235 lbs',
+    11.8,
+    5.5,
+    2.7,
+    1.8,
+    2.0,
+    '47.2%',
+    '31.4%',
+    'An all-around forward with defensive prowess, this versatile player impacted both ends of the floor. A former All-Star and multiple-time All-Defensive Team selection.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fandrei-kirilenko-toronto-raptors-min--bfcmfhx2.png&w=750&h=750&f=webp'
+);
+
+// Karl Malone
+const karlMalone = new Players(
+    'Center',
+    '1985–2004',
+    '6\'9"',
+    '250 lbs',
+    25.0,
+    10.1,
+    3.6,
+    1.4,
+    0.8,
+    '51.6%',
+    '27.4%',
+    'One of the greatest power forwards in NBA history, this Hall of Famer was a dominant force in scoring and rebounding. A two-time MVP and 14-time All-Star.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkarl-malone-toronto-raptors-min--1hnjwmge.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man - Rudy Gobert
+const rudyGobert = new Players(
+    'Sixth Man',
+    '2013–present',
+    '7\'1"',
+    '258 lbs',
+    11.1,
+    11.0,
+    1.4,
+    0.7,
+    2.3,
+    '66.0%',
+    'N/A',
+    'A defensive stalwart and elite rim protector, this player has anchored the defense with multiple Defensive Player of the Year awards and All-Star appearances.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Frudy-gobert-toronto-raptors-min--71j2asxe.png&w=750&h=750&f=webp'
+);
+
+////////////////////////////////////////////////////////////////////////
+
+//wizards
+
+// John Wall
+const johnWall = new Players(
+    'Point Guard',
+    '2010–present',
+    '6\'4"',
+    '210 lbs',
+    19.0,
+    4.3,
+    9.2,
+    1.7,
+    0.6,
+    '43.3%',
+    '32.4%',
+    'A lightning-quick point guard with exceptional playmaking skills. A five-time All-Star and key figure in the team\'s recent success.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fjohn-wall-washington-wizards-min--36tsidw2.png&w=750&h=750&f=webp'
+);
+
+// Gilbert Arenas
+const gilbertArenas = new Players(
+    'Shooting Guard',
+    '2001–2012',
+    '6\'3"',
+    '191 lbs',
+    20.7,
+    3.9,
+    5.3,
+    1.6,
+    0.2,
+    '42.1%',
+    '35.2%',
+    'A dynamic scoring guard known for his clutch performances. A three-time All-Star and one of the franchise\'s all-time leading scorers.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fgilbert-arenas-washington-wizards-min--y50zv27v.png&w=750&h=750&f=webp'
+);
+
+// Bradley Beal
+const bradleyBeal = new Players(
+    'Small Forward',
+    '2012–present',
+    '6\'3"',
+    '207 lbs',
+    23.2,
+    4.6,
+    4.1,
+    1.2,
+    0.4,
+    '45.3%',
+    '35.8%',
+    'A scoring machine with an all-around game. A multiple-time All-Star and one of the league\'s top shooting guards.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fbradley-beal-washington-wizards-min--1mwns0su.png&w=750&h=750&f=webp'
+);
+
+// Elvin Hayes
+const elvinHayes = new Players(
+    'Power Forward',
+    '1968–1984',
+    '6\'9"',
+    '235 lbs',
+    21.0,
+    12.5,
+    1.8,
+    1.0,
+    2.0,
+    '45.2%',
+    '16.7%',
+    'A dominant power forward and rebounder. A 12-time All-Star and Hall of Famer, known for his scoring and durability.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Felvin-hayes-washington-wizards-min--0c4b42c0.png&w=750&h=750&f=webp'
+);
+
+// Wes Unseld
+const wesUnseld = new Players(
+    'Center',
+    '1968–1981',
+    '6\'7"',
+    '245 lbs',
+    10.8,
+    14.0,
+    3.9,
+    1.1,
+    0.6,
+    '50.9%',
+    '63.3%',
+    'A legendary center known for his rebounding and outlet passes. An MVP, NBA champion, and Finals MVP.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fwes-unseld-washington-wizards-min--yy13zdt7.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man - Earl Monroe
+const earlMonroe = new Players(
+    'Sixth Man',
+    '1967–1980',
+    '6\'3"',
+    '185 lbs',
+    18.8,
+    3.9,
+    3.9,
+    3.1,
+    0.4,
+    '47.4%',
+    'unknown',
+    'A dynamic guard known for his scoring and creativity. A four-time All-Star and NBA champion, providing a spark off the bench.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fearl-monroe-washington-wizards-min--s2c0zttr.png&w=750&h=750&f=webp'
+);
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+//bulls 
+// Derrick Rose
+const derrickRoseBulls = new Players(
+    'Point Guard',
+    '2008–present',
+    '6\'3"',
+    '200 lbs',
+    18.8,
+    3.4,
+    5.6,
+    0.8,
+    0.3,
+    '48.4%',
+    '30.8%',
+    'Known for explosiveness and scoring ability. The youngest MVP in NBA history, led the team with passion and skill.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fderrick-rose-chicago-bulls-min--uxcdyhyl.png&w=750&h=750&f=webp'
+);
+
+///
+// Michael Jordan
+const michaelJordanBulls = new Players(
+    'Shooting Guard',
+    '1984–2003',
+    '6\'6"',
+    '216 lbs',
+    30.1,
+    6.2,
+    5.3,
+    2.3,
+    0.8,
+    '49.7%',
+    '32.7%',
+    'Widely regarded as one of the greatest basketball players in history. A six-time NBA champion and five-time MVP.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fmichael-jordan-chicago-bulls-min--driqsmr0.png&w=750&h=750&f=webp'
+);
+
+// Scottie Pippen
+const scottiePippenBulls = new Players(
+    'Small Forward',
+    '1987–2008',
+    '6\'8"',
+    '228 lbs',
+    16.1,
+    6.4,
+    5.2,
+    2.0,
+    0.8,
+    '47.3%',
+    '32.6%',
+    'A versatile and defensive-minded forward. A key component of the team\'s dynasty, Pippen was a multiple-time All-Star and champion.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fscottie-pippen-chicago-bulls-min--bw5lnxrs.png&w=750&h=750&f=webp'
+);
+
+// Dennis Rodman
+const dennisRodmanBulls = new Players(
+    'Power Forward',
+    '1986–2006',
+    '6\'7"',
+    '220 lbs',
+    7.3,
+    13.1,
+    1.8,
+    0.7,
+    0.6,
+    '52.1%',
+    '23.4%',
+    'One of the greatest defenders and rebounders in NBA history. A multiple-time rebounding champion and two-time Defensive Player of the Year.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fdennis-rodman-chicago-bulls-min--uzguonxu.png&w=750&h=750&f=webp'
+);
+
+// Artis Gilmore
+const artisGilmore = new Players(
+    'Center',
+    '1976–1988',
+    '7\'2"',
+    '240 lbs',
+    18.8,
+    12.3,
+    2.3,
+    'unknown',
+    'unknown',
+    '59.9%',
+    'n/a',
+    'A dominant center with impressive scoring and rebounding abilities. A multiple-time All-Star and one of the best big men in franchise history.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fartis-gilmore-chicago-bulls-min--9ckwmrkm.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man - Jimmy Butler
+const jimmyButlerBulls = new Players(
+    'Sixth Man',
+    '2011–present',
+    '6\'7"',
+    '230 lbs',
+    19.9,
+    5.3,
+    5.0,
+    1.8,
+    0.5,
+    '45.7%',
+    '33.0%',
+    'A two-way star known for hard work and tenacity. A multiple-time All-Star and key player in recent successes.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fjimmy-butler-chicago-bulls-min--v2egbhkk.png&w=750&h=750&f=webp'
+);
 
 
 
@@ -1748,7 +3334,9 @@ const brooklynNets = new Roster('brooklyn nets', 'brooklyn, new york', jasonKidd
 
 const charlotteHornets = new Roster('charlotte hornets', 'charlotte, north carolina', kembaWalker, dellCurry, glenRice, larryJohnson, alonzoMourning, tonyParker)
 
-const chicagoBulls = new Roster('cleveland cavaliers', 'cleveland ohio', kyrieIrving, markPrice, lebronJamesCavs, larryNance, zydrunasIlgauskas, bradDaugherty)
+const chicagoBulls = new Roster('chicago bulls', 'chicago illinois', derrickRose, michaelJordanBulls, scottiePippenBulls, dennisRodmanBulls, artisGilmore, jimmyButlerBulls)
+
+const clevelandCavs = new Roster('cleveland cavaliers', 'cleveland ohio', kyrieIrving, markPrice, lebronJamesCavs, larryNance, zydrunasIlgauskas, bradDaugherty)
 
 const dallasMavericks = new Roster('dallas mavericks', 'dallas, texas', bradDaugherty, jimJackson, lukaDoncic, markAguirre, dirkNowitzki)
 
@@ -1770,6 +3358,36 @@ const memphisGrizzlies = new Roster('memphis grizzlies', 'memphis, tennessee', m
 
 const miamiHeat = new Roster('miami heat', 'miami, florida', timHardaway, dwyaneWade, jimmyButler, lebronJamesHeat, alonzoMourningHeat, chrisBosh)
 
+const milwaukeeBucks = new Roster('milwaukee bucks', 'milwaukee, wisconsin', oscarRobertson, sidneyMoncrief, marquesJohnson, giannisAntetokounmpo, kareemAbdulJabbarBucks)
+
+const minnesotaTimberwolves = new Roster('minnesota timberwolves', 'minnesota, minneapolis', samCassell, tomGugliotta, kevinLove, kevinGarnett, karlAnthonyTowns, stephenMarbury)
+
+const newOrleansPelicans = new Roster('new orleans pelicans', 'new orleans, louisiana', chrisPaul, jrueHoliday, brandonIngram, anthonyDavis, davidWest, zionWilliamson)
+
+const newYorkKnicks = new Roster('new york knicks', 'New York City, New York', waltFrazier, richieGuerin, carmeloAnthony, willisReed, patrickEwing, allanHouston)
+
+const okc = new Roster('oklahoma city thunder', 'oklahoma city, oklahoma', russellWestbrook, garyPayton, rayAllen, kevinDurantOKC, shawnKemp)
+
+const magic = new Roster('orlando magic', 'orlando, florida', pennyHardaway, tracyMcGrady, hedoTurkoglu, rashardLewis, dwightHoward, shaqONeal)
+
+const sixers = new Roster('philadelphia 76ers', 'philadelphia, pennsylvania', allenIverson76ers, juliusIrving76ers, billyCunningham, mosesMalone76ers, joelEmbiid)
+
+const suns = new Roster('phoenix suns', 'phoenix, arizona', steveNash, devinBooker, shawnMarion, charlesBarkley, amareStoudemire, dennisJohnson )
+
+const trailBlazers = new Roster('portland trail blazers', 'portland, oregon', damianLillard, clydeDrexlerBlazers, brandonRoy, lamarcusAldridge, billWalton, mauriceLucas)
+
+const kings = new Roster('sacramento kings', 'sacramento, california', nateArchibald, oscarRobertson, mitchRichmond, chrisWebber, demarcusCousins, jerryLucas)
+
+const spurs = new Roster('san antonio spurs', 'san antonio, texas', tonyParkerSpurs, georgeGervin, kawhiLeonardSpurs, timDuncan, davidRobinson, manuGinobili)
+
+const raptors = new Roster('toronto raptors', 'toronto, canada', kyleLowry, vinceCarterTOR, demarDerozan, chrisBosh, pascalSiakam, kawhiLeonardTOR)
+
+const jazz = new Roster('utah jazz', 'salt lake city, utah', johnStockton, peteMaravich, adrianDantley, andreiKirilenko, karlMalone, rudyGobert)
+
+const wizards = new Roster('washington wizards', 'washington dc', johnWall, gilbertArenas, bradleyBeal, elvinHayes, wesUnseld, earlMonroe)
+
+
+
 
 
 // const laLakers = new Roster('los angeles lakers', 'los angeles, california', magicJohnson, kobeBryant, lebronJames, kareemAbdulJabbar, shaquilleONeal)
@@ -1780,7 +3398,9 @@ const unknown = new NBA('unknown', 'unknown')
 // console.log(atlantaHawks.teamname)
 
 ///team array
-const teams = [atlantaHawks, brooklynNets, bostonCeltics, charlotteHornets, chicagoBulls, dallasMavericks, denverNuggets, detroitPistons, goldenStateWarriors, houstonRockets, indianaPacers, laClippers, laLakers, memphisGrizzlies, miamiHeat, unknown]
+const teams = [atlantaHawks, brooklynNets, bostonCeltics, charlotteHornets, chicagoBulls, clevelandCavs, dallasMavericks, denverNuggets, detroitPistons, goldenStateWarriors, houstonRockets, indianaPacers, laClippers, laLakers, memphisGrizzlies, miamiHeat, milwaukeeBucks, minnesotaTimberwolves, newOrleansPelicans, newYorkKnicks, okc, magic, sixers, suns, trailBlazers, kings, spurs, raptors, jazz, wizards, unknown]
+
+console.log(teams.length - 1);
 
 
 module.exports = teams
