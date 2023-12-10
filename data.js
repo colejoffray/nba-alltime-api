@@ -1306,6 +1306,437 @@ const dannyGranger = new Players(
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 
+//clippers 
+const chrisPaul = new Players(
+    'Point Guard',
+    'Chris Paul',
+    '2005–present',
+    '6\'1"',
+    '175 lbs',
+    18.4,
+    4.5,
+    9.5,
+    2.2,
+    0.1,
+    '47.3%',
+    '37.0%',
+    'Averaged 18.4 points, 9.5 assists, and 4.5 rebounds in 1,074 regular-season games. A ten-time NBA All-Star and known for his elite playmaking and defensive skills.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fchris-paul-los-angeles-clippers-min--qb3ul5nf.png&w=750&h=750&f=webp'
+);
+
+const ronHarper = new Players(
+    'Shooting Guard',
+    'Ron Harper',
+    '1986–2001',
+    '6\'6"',
+    '185 lbs',
+    13.8,
+    3.9,
+    3.5,
+    1.7,
+    0.4,
+    '45.5%',
+    '32.8%',
+    'Averaged 13.8 points, 3.5 assists, and 3.9 rebounds in 1,011 regular-season games. A five-time NBA champion known for his scoring and defensive contributions.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fron-harper-los-angeles-clippers-min--72v23zx3.png&w=750&h=750&f=webp'
+);
+
+const kawhiLeonard = new Players(
+    'Small Forward',
+    'Kawhi Leonard',
+    '2011–present',
+    '6\'7"',
+    '225 lbs',
+    19.2,
+    6.4,
+    2.8,
+    1.8,
+    0.6,
+    '49.3%',
+    '38.9%',
+    'Averaged 19.2 points, 2.8 assists, and 6.4 rebounds in 544 regular-season games. A two-time NBA Finals MVP and known for his elite two-way skills.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkawhi-leonard-los-angeles-clippers-min--fnydumjm.png&w=750&h=750&f=webp'
+);
+
+const bobMcAdoo = new Players(
+    'Power Forward',
+    'Bob McAdoo',
+    '1972–1986',
+    '6\'9"',
+    '210 lbs',
+    22.1,
+    9.4,
+    2.3,
+    1.0,
+    2.0,
+    '50.3%',
+    '33.5%',
+    'Averaged 22.1 points, 9.4 rebounds, and 2.3 assists in 852 regular-season games. A two-time NBA champion and NBA MVP known for his scoring and rebounding.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fbob-mcadoo-los-angeles-clippers-min--fwzlt7eb.png&w=750&h=750&f=webp'
+);
+
+const eltonBrand = new Players(
+    'Center',
+    'Elton Brand',
+    '1999–2016',
+    '6\'9"',
+    '275 lbs',
+    15.9,
+    8.5,
+    2.1,
+    1.0,
+    1.7,
+    '50.3%',
+    '15.4%',
+    'Averaged 15.9 points, 8.5 rebounds, and 2.1 assists in 1,058 regular-season games. An NBA Rookie of the Year and two-time NBA All-Star known for his scoring and rebounding.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Felton-brand-los-angeles-clippers-min--6nqjxzcv.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man
+const blakeGriffin = new Players(
+    'Sixth Man',
+    'Blake Griffin',
+    '2010–present',
+    '6\'9"',
+    '250 lbs',
+    21.4,
+    8.7,
+    4.4,
+    0.9,
+    0.5,
+    '49.2%',
+    '33.1%',
+    'Averaged 21.4 points, 4.4 assists, and 8.7 rebounds in 642 regular-season games. A six-time NBA All-Star known for his high-flying dunks and all-around skill set.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fblake-griffin-los-angeles-clippers-min--p9cn9ks1.png&w=750&h=750&f=webp'
+);
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+//la lakers 
+
+const magicJohnson = new Players(
+    'Magic Johnson',
+    'Point Guard',
+    '1979–1991, 1996',
+    '6\'9"',
+    '215 lbs',
+    19.5,
+    7.2,
+    11.2,
+    1.9,
+    0.4,
+    '52%',
+    '30.3%',
+    'Averaged 19.5 points, 11.2 assists, and 7.2 rebounds in 906 regular-season games. He played a key role in winning 5 NBA championships and was selected to 12 All-Star games. His infectious smile earned him the nickname "Magic".',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fmagic-johnson-los-angeles-lakers-min--uwsuzysw.png&w=750&h=750&f=webp'
+);
+
+const kobeBryant = new Players(
+    'Kobe Bryant',
+    'Shooting Guard',
+    '1996–2016',
+    '6\'6"',
+    '212 lbs',
+    25.0,
+    5.2,
+    4.7,
+    1.4,
+    0.5,
+    '44.7%',
+    '32.9%',
+    'Averaged 25.0 points, 4.7 rebounds, and 5.2 assists in 1,346 regular-season games. He played his entire career with the Lakers, winning 5 NBA championships and earning 18 All-Star selections. Known for his scoring prowess, he once scored 81 points in a single game.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkobe-bryant-los-angeles-lakers-min--vr5j-vft.png&w=750&h=750&f=webp'
+);
+
+const lebronJames = new Players(
+    'LeBron James',
+    'Small Forward / Power Forward',
+    '2003–present',
+    '6\'9"',
+    '250 lbs',
+    27.0,
+    7.4,
+    7.4,
+    1.6,
+    0.8,
+    '50.4%',
+    '34.5%',
+    'Averaging 27.0 points, 7.4 rebounds, and 7.4 assists in over 1,300 regular-season games. This player has led the Lakers to 2 NBA championships and has been selected to 17 All-Star games. Known for versatility, this player is often referred to as "The King".',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Flebron-james-los-angeles-lakers-min--kqplmn0q.png&w=750&h=750&f=webp'
+);
+
+const kareemAbdulJabbar = new Players(
+    'Kareem Abdul-Jabbar',
+    'Center',
+    '1969–1989',
+    '7\'2"',
+    '225 lbs',
+    24.6,
+    11.2,
+    3.6,
+    'unknown',
+    'unknown',
+    '55.9%',
+    '5.6%',
+    'Averaged 24.6 points, 11.2 rebounds, and 3.6 assists in 1,560 regular-season games. He played a key role in winning 5 NBA championships with the Lakers and was selected to 19 All-Star games. Known for his skyhook shot, he is the all-time leading scorer in NBA history.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkareem-abdul-jabbar-los-angeles-lakers-min--epuudzya.png&w=750&h=750&f=webp'
+);
+
+const shaquilleONeal = new Players(
+    'Shaquille O\'Neal',
+    'Power Forward / Center',
+    '1992–2011',
+    '7\'1"',
+    '325 lbs',
+    23.7,
+    10.9,
+    2.5,
+    0.6,
+    2.3,
+    '58.2%',
+    '4.5%',
+    'Averaged 23.7 points, 10.9 rebounds, and 2.5 assists in 1,207 regular-season games. He played a dominant role in winning 3 NBA championships with the Lakers and was selected to 15 All-Star games. Known for his powerful dunks, he was nicknamed "Shaq".',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fshaquille-oneal-los-angeles-lakers-min--qcqba2bb.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man
+const jerryWest = new Players(
+    'Jerry West',
+    'Shooting Guard / Point Guard',
+    '1960–1974',
+    '6\'2"',
+    '175 lbs',
+    27.0,
+    5.8,
+    6.7,
+    2.6,
+    0.7,
+    '47.4%',
+    '30.8%',
+    'Averaged 27.0 points, 6.7 assists, and 5.8 rebounds in 932 regular-season games. Known for his clutch performances, he was nicknamed "Mr. Clutch". He won an NBA championship and was selected to 14 All-Star games.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fjerry-west-los-angeles-lakers-min--agm7qmnq.png&w=750&h=750&f=webp'
+);
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+//memphis grizzlies
+
+const mikeConley = new Players(
+    'Point Guard',
+    'Mike Conley',
+    '2007–present',
+    '6\'1"',
+    '175 lbs',
+    14.8,
+    3.0,
+    5.7,
+    1.3,
+    0.2,
+    '44.7%',
+    '37.5%',
+    'Averaged 14.8 points, 5.7 assists, and 3.0 rebounds in 887 regular-season games. Known for his playmaking, defense, and leadership on the court.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fmike-conley-memphis-grizzlies-min--qxwyftlc.png&w=750&h=750&f=webp'
+);
+
+const jaMorant = new Players(
+    'Shooting Guard',
+    'Ja Morant',
+    '2019–present',
+    '6\'3"',
+    '174 lbs',
+    18.1,
+    3.5,
+    7.4,
+    0.9,
+    0.3,
+    '47.5%',
+    '34.7%',
+    'Averaged 18.1 points, 7.4 assists, and 3.5 rebounds in 150 regular-season games. An NBA Rookie of the Year and known for his explosive athleticism and scoring ability.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fja-morant-memphis-grizzlies-min--vfdgqhbh.png&w=750&h=750&f=webp'
+);
+
+const shareefAbdurRahim = new Players(
+    'Small Forward',
+    'Shareef Abdur-Rahim',
+    '1996–2008',
+    '6\'9"',
+    '225 lbs',
+    18.1,
+    7.5,
+    2.5,
+    1.0,
+    0.9,
+    '47.2%',
+    '31.8%',
+    'Averaged 18.1 points, 7.5 rebounds, and 2.5 assists in 830 regular-season games. A one-time NBA All-Star and known for his scoring versatility and rebounding.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fshareef-abdur-rahim-atlanta-hawks-min--k8aowhkr.png&w=750&h=750&f=webp'
+);
+
+const zachRandolph = new Players(
+    'Power Forward',
+    'Zach Randolph',
+    '2001–2018',
+    '6\'9"',
+    '250 lbs',
+    16.6,
+    9.1,
+    1.8,
+    0.3,
+    0.2,
+    '47.2%',
+    '28.2%',
+    'Averaged 16.6 points, 9.1 rebounds, and 1.8 assists in 1,116 regular-season games. A two-time NBA All-Star and known for his post scoring and rebounding.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fzach-randolph-memphis-grizzlies-min--o4azlyin.png&w=750&h=750&f=webp'
+);
+
+const marcGasol = new Players(
+    'Center',
+    'Marc Gasol',
+    '2008–2019',
+    '6\'11"',
+    '255 lbs',
+    14.0,
+    7.4,
+    3.4,
+    0.9,
+    1.4,
+    '48.1%',
+    '36.8%',
+    'Averaged 14.0 points, 7.4 rebounds, and 3.4 assists in 797 regular-season games. An NBA Defensive Player of the Year and known for his basketball IQ and passing.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fmarc-gasol-memphis-grizzlies-min--ox3roqpu.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man
+const tonyAllen = new Players(
+    'Sixth Man',
+    'Tony Allen',
+    '2004–2018',
+    '6\'4"',
+    '213 lbs',
+    8.1,
+    3.5,
+    1.3,
+    1.6,
+    0.5,
+    '47.0%',
+    '28.1%',
+    'Averaged 8.1 points, 3.5 rebounds, and 1.3 assists in 916 regular-season games. A six-time NBA All-Defensive Team member and known for his tenacious defense.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Ftony-allen-memphis-grizzlies-min--dozbuepu.png&w=750&h=750&f=webp'
+);
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+//miami heat 
+const timHardaway = new Players(
+    'Point Guard',
+    'Tim Hardaway',
+    '1989–2003',
+    '6\'0"',
+    '175 lbs',
+    17.7,
+    3.3,
+    8.2,
+    1.6,
+    0.1,
+    '43.0%',
+    '35.0%',
+    'Averaged 17.7 points, 8.2 assists, and 3.3 rebounds in 867 regular-season games. A five-time NBA All-Star known for his crossover dribble and scoring ability.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Ftim-hardaway-miami-heat-min--6xrglj0e.png&w=750&h=750&f=webp'
+);
+
+const dwyaneWade = new Players(
+    'Shooting Guard',
+    'Dwyane Wade',
+    '2003–2019',
+    '6\'4"',
+    '220 lbs',
+    22.0,
+    4.7,
+    5.4,
+    1.5,
+    0.8,
+    '48.3%',
+    '29.3%',
+    'Averaged 22.0 points, 5.4 assists, and 4.7 rebounds in 1,054 regular-season games. A 13-time NBA All-Star and three-time NBA champion known for his scoring and defensive skills.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fdwyane-wade-miami-heat-min--rvtcjvbw.png&w=750&h=750&f=webp'
+);
+
+const jimmyButler = new Players(
+    'Small Forward',
+    'Jimmy Butler',
+    '2011–present',
+    '6\'7"',
+    '230 lbs',
+    18.3,
+    5.0,
+    3.4,
+    1.7,
+    0.5,
+    '45.2%',
+    '33.4%',
+    'Averaged 18.3 points, 3.4 assists, and 5.0 rebounds in 642 regular-season games. A five-time NBA All-Star known for his scoring, defense, and leadership.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fjimmy-butler-miami-heat-min--9bpoh2d0.png&w=750&h=750&f=webp'
+);
+
+const lebronJamesHeat = new Players(
+    'Power Forward',
+    'LeBron James',
+    '2003–present',
+    '6\'9"',
+    '250 lbs',
+    27.0,
+    7.4,
+    7.4,
+    1.6,
+    0.8,
+    '50.4%',
+    '34.5%',
+    'Averaged 27.0 points, 7.4 assists, and 7.4 rebounds in 1,310 regular-season games. A 17-time NBA All-Star and four-time NBA champion known for his all-around skills and basketball IQ.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Flebron-james-los-angeles-lakers-min--rsxub1s6.png&w=750&h=750&f=webp'
+);
+
+const alonzoMourningHeat = new Players(
+    'Center',
+    'Alonzo Mourning',
+    '1992–2008',
+    '6\'10"',
+    '261 lbs',
+    17.1,
+    8.5,
+    1.1,
+    0.5,
+    2.8,
+    '52.7%',
+    '24.7%',
+    'Averaged 17.1 points, 8.5 rebounds, and 1.1 assists in 838 regular-season games. An NBA champion, two-time Defensive Player of the Year, and seven-time NBA All-Star known for his shot-blocking.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Falonzo-mourning-miami-heat-min--5ek91j9m.png&w=750&h=750&f=webp'
+);
+
+// Sixth Man
+const chrisBosh = new Players(
+    'Sixth Man',
+    'Chris Bosh',
+    '2003–2016',
+    '6\'11"',
+    '235 lbs',
+    19.2,
+    8.5,
+    2.0,
+    0.9,
+    1.0,
+    '49.4%',
+    '33.5%',
+    'Averaged 19.2 points, 8.5 rebounds, and 2.0 assists in 893 regular-season games. An 11-time NBA All-Star known for his versatility and two NBA championships with the Miami Heat.',
+    'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fchris-bosh-miami-heat-min--my2bhtz0.png&w=750&h=750&f=webp'
+);
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 
 
 //team
@@ -1331,6 +1762,14 @@ const houstonRockets = new Roster('houston rockets', 'houston, texas', jamesHard
 
 const indianaPacers = new Roster('indiana pacers', 'indianapolis, indiana', freddieLewis, reggieMiller, paulGeorge, jermaineONeal, melDaniels, dannyGranger)
 
+const laClippers = new Roster('los angeles clippers', 'los angeles, california', chrisPaul, ronHarper, kawhiLeonard, bobMcAdoo, eltonBrand, blakeGriffin )
+
+const laLakers = new Roster('los angeles lakers', 'los angeles, california', magicJohnson, kobeBryant, lebronJames, kareemAbdulJabbar, shaquilleONeal, jerryWest)
+
+const memphisGrizzlies = new Roster('memphis grizzlies', 'memphis, tennessee', mikeConley, jaMorant, shareefAbdurRahim, zachRandolph, marcGasol)
+
+const miamiHeat = new Roster('miami heat', 'miami, florida', timHardaway, dwyaneWade, jimmyButler, lebronJamesHeat, alonzoMourningHeat, chrisBosh)
+
 
 
 // const laLakers = new Roster('los angeles lakers', 'los angeles, california', magicJohnson, kobeBryant, lebronJames, kareemAbdulJabbar, shaquilleONeal)
@@ -1341,11 +1780,8 @@ const unknown = new NBA('unknown', 'unknown')
 // console.log(atlantaHawks.teamname)
 
 ///team array
-const teams = [atlantaHawks, brooklynNets, bostonCeltics, charlotteHornets, chicagoBulls, dallasMavericks, denverNuggets, detroitPistons, goldenStateWarriors, houstonRockets, indianaPacers, unknown]
+const teams = [atlantaHawks, brooklynNets, bostonCeltics, charlotteHornets, chicagoBulls, dallasMavericks, denverNuggets, detroitPistons, goldenStateWarriors, houstonRockets, indianaPacers, laClippers, laLakers, memphisGrizzlies, miamiHeat, unknown]
 
-let a = 'pg'
-
-console.log(teams[2].a);
 
 module.exports = teams
 
