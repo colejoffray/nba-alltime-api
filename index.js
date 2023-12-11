@@ -2,14 +2,14 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 const teams = require('./data')
-const PORT = 4000
+const PORT = process.env.PORT || 4000
 
 
 
 
 app.use(cors())
 
-app.get('/', (req, res) => {
+app.get('https://vast-lime-dolphin-ring.cyclic.app/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
 
@@ -49,6 +49,8 @@ app.get('/api/:name/:pos', (req,res) => {
         case 'c': 
             res.json(obj.c)
             break;
+        case 'sixth':
+            res.json(obj.sixthMan)
         default:
             res.json(unknown)
     }
