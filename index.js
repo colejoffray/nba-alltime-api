@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 4000
 
 app.use(cors())
 
-app.get('https://vast-lime-dolphin-ring.cyclic.app/', (req, res) => {
+app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
 
@@ -20,9 +20,15 @@ app.get('/api', (req,res) => {
 //to get the whole team
 app.get('/api/:name', (req, res) => {
     const teamName = req.params.name.toLowerCase().slice(1)
-    const obj = teams.find(element => element.teamname === teamName)
-    const unknown = teams.find(element => element.teamname === 'unknown')
-    !obj ? res.json(unknown) : res.json(obj)
+    const num = Math.floor(Math.random() * 30)
+    if(teamName === 'random'){
+        res.json(teams[num])
+    }else{
+        const obj = teams.find(element => element.teamname === teamName)
+        const unknown = teams.find(element => element.teamname === 'unknown')
+        !obj ? res.json(unknown) : res.json(obj)
+    }
+    
 })
 
 
@@ -56,6 +62,13 @@ app.get('/api/:name/:pos', (req,res) => {
     }
     
 })
+
+
+// app.get('/api/:name', (req,res) => {
+//     const par = req.params.name.slice(1)
+//     const num = Math.floor(Math.random() * 30)
+    
+// })
 
 
 
