@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/assets/basketball-icon-vector-6910947.jpg" type="image/jpg">
+    <link rel="icon" type="x-icon" sizes="32x32" href="/assets/favicon-32x32.png">
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"> -->
     <title>NBA All-Time API</title>
+    
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -23,7 +26,10 @@
                 <span>https://nba-alltime.onrender.com/api/:random</span>
             </div>
             <p>By hitting this URL, the API will serve back data (roster) from a random NBA team. The response will be in json object format. This link is great for making trivia games!</p>
-            <div class="example">
+            <div class="btn">
+              <button onclick="toggleVisibility(document.getElementById('random'))">Show Example</button>
+            </div>
+            <div class="example hidden" id="random">
                 <h3>Code example:</h3>
                 <h4>URL: https://nba-alltime.onrender.com/api/:random</h4>
                 <h4>RESPONSE:</h4>
@@ -137,17 +143,130 @@
             <div class="url">
                 <span>https://nba-alltime.onrender.com/api</span>
             </div>
+            <p>If you would like all 30 teams. Use the api url specified below. Be sure to enter it exactly as documented in the code example. The response is too big, so the example only shows 1 team. Expect the result to show all 30, starting with the Atlanta Hawks.</p>
+            <div class="btn">
+              <button onclick="toggleVisibility(document.getElementById('all'))">Show Example</button>
+            </div>
+            <div class="example hidden" id="all">
+              <h3>Code example:</h3>
+              <h4>URL: https://nba-alltime.onrender.com/api/</h4>
+              <h4>RESPONSE:</h4>
+              <pre><code>
+                Roster {
+                  _teamname: 'cleveland cavaliers',
+                  _location: 'cleveland ohio',
+                  _pg: Players {
+                    _name: 'Point Guard',
+                    _position: 'Kyrie Irving',
+                    _yearsPlayed: '2011&ndash;present',
+                    _height: `6'3&quot;`,
+                    _weight: '195 lbs',
+                    _ppg: 22.5,
+                    _reb: 3.7,
+                    _ast: 5.7,
+                    _stl: 1.3,
+                    _blk: 0.5,
+                    _fg: '48.7%',
+                    _threePerc: '39.0%',
+                    _funFact: 'Averaged 22.5 points, 5.7 assists, and 3.7 rebounds in 381 regular-season games. Known for exceptional ball-handling and clutch performances, this player won an NBA championship in 2016.',
+                    _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkyrie-irving-brooklyn-nets-min--9obzm4cp.png&amp;w=750&amp;h=750&amp;f=webp'
+                  },
+                  _sg: Players {
+                    _name: 'Shooting Guard',
+                    _position: 'Mark Price',
+                    _yearsPlayed: '1986&ndash;1998',
+                    _height: `6'0&quot;`,
+                    _weight: '170 lbs',
+                    _ppg: 15.2,
+                    _reb: 2.6,
+                    _ast: 6.7,
+                    _stl: 1.2,
+                    _blk: 0.2,
+                    _fg: '47.2%',
+                    _threePerc: '40.2%',
+                    _funFact: 'Averaged 15.2 points, 6.7 assists, and 2.6 rebounds in 722 regular-season games. Recognized as one of the best free-throw shooters in history.',
+                    _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fmark-price-cleveland-cavaliers-min--1dfjhtzo.png&amp;w=750&amp;h=750&amp;f=webp'
+                  },
+                  _sf: Players {
+                    _name: 'Small Forward / Power Forward',
+                    _position: 'LeBron James',
+                    _yearsPlayed: '2003&ndash;present',
+                    _height: `6'9&quot;`,
+                    _weight: '250 lbs',
+                    _ppg: 27,
+                    _reb: 7.4,
+                    _ast: 7.4,
+                    _stl: 1.6,
+                    _blk: 0.8,
+                    _fg: '50.4%',
+                    _threePerc: '34.5%',
+                    _funFact: 'Averaging 27.0 points, 7.4 rebounds, and 7.4 assists in over 1,300 regular-season games. Led the team to 1 NBA championship and selected to 16 All-Star games.',
+                    _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Flebron-james-cleveland-cavaliers-min--gpoz3jnb.png&amp;w=750&amp;h=750&amp;f=webp'
+                  },
+                  _pf: Players {
+                    _name: 'Power Forward',
+                    _position: 'Larry Nance',
+                    _yearsPlayed: '1981&ndash;1994',
+                    _height: `6'10&quot;`,
+                    _weight: '205 lbs',
+                    _ppg: 17.1,
+                    _reb: 8,
+                    _ast: 2.6,
+                    _stl: 1.6,
+                    _blk: 2.2,
+                    _fg: '54.7%',
+                    _threePerc: '27.3%',
+                    _funFact: 'Averaged 17.1 points, 8.0 rebounds, and 2.6 assists in 768 regular-season games. Known for shot-blocking abilities.',
+                    _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Flarry-nance-cleveland-cavaliers-min--8kldshsb.png&amp;w=750&amp;h=750&amp;f=webp'
+                  },
+                  _c: Players {
+                    _name: 'Center',
+                    _position: 'Zydrunas Ilgauskas',
+                    _yearsPlayed: '1997&ndash;2011',
+                    _height: `7'3&quot;`,
+                    _weight: '238 lbs',
+                    _ppg: 13,
+                    _reb: 7.3,
+                    _ast: 1.2,
+                    _stl: 0.5,
+                    _blk: 1.6,
+                    _fg: '47.7%',
+                    _threePerc: '32.2%',
+                    _funFact: 'Averaged 13.0 points, 7.3 rebounds, and 1.2 assists in 843 regular-season games. A two-time NBA All-Star.',
+                    _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fzydrunas-ilgauskas-cleveland-cavaliers-min--zbl0bnf7.png&amp;w=750&amp;h=750&amp;f=webp'
+                  },
+                  _sixthMan: Players {
+                    _name: 'Center',
+                    _position: 'Brad Daugherty',
+                    _yearsPlayed: '1986&ndash;1994',
+                    _height: `7'0&quot;`,
+                    _weight: '245 lbs',
+                    _ppg: 19,
+                    _reb: 9.5,
+                    _ast: 3.7,
+                    _stl: 0.8,
+                    _blk: 1.1,
+                    _fg: '53.2%',
+                    _threePerc: '35.3%',
+                    _funFact: 'Averaged 19.0 points, 9.5 rebounds, and 3.7 assists in 548 regular-season games. A five-time NBA All-Star.',
+                    _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fbrad-daugherty-cleveland-cavaliers-min--r6wvhfp9.png&amp;w=750&amp;h=750&amp;f=webp'
+                  }
+                }
+
+                x 30 ....
+              </code></pre>
         </div>
         <div class="endpoint">
-            <h2>get a player by position</h2>
+            <h2>Get a specific team</h2>
             <div class="url">
                 <span>https://nba-alltime.onrender.com/api/:[team name]</span>
             </div>
+            <p>By hitting this URL, the API will serve back data (roster) from a specific team you want. The response will be in json object format. Please enter the url exactly as below in the example!</p>
             <div class="btn">
-              <button>Show Example</button>
+              <button onclick="toggleVisibility(document.getElementById('team'))">Show Example</button>
             </div>
             
-            <div class="example">
+            <div class="example hidden" id="team">
                 <h3>Code example:</h3>
                 <h4>URL: https://nba-alltime.onrender.com/api/:cleveland cavaliers</h4>
                 <h4>RESPONSE:</h4>
@@ -254,11 +373,15 @@
             </div>
         </div>
         <div class="endpoint">
-            <h2>get a player by position</h2>
+            <h2>Get a player by position</h2>
             <div class="url">
                 <span>https://nba-alltime.onrender.com/api/:[team name]/:[position]</span>
             </div>
-            <div class="example">
+            <p>If you would like to receive data on a specific player, you will need to add the position after the team you have specified. Please enter the url exactly as specified in the code example. </p>
+            <div class="btn">
+              <button onclick="toggleVisibility(document.getElementById('position'))" id="last">Show Example</button>
+            </div>
+            <div class="example hidden" id="position">
                 <h3>Code example:</h3>
                 <h4>URL: https://nba-alltime.onrender.com/api/:cleveland cavaliers/:pg</h4>
                 <h4>RESPONSE:</h4>

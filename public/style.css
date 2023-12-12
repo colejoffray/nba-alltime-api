@@ -84,3 +84,15 @@ button:hover {
     margin: auto;
     text-align: center;
 }
+
+.hidden {
+    display: none;
+}
+
+.endpoint {
+    margin-top: 3rem;
+}
+
+#last {
+    margin-bottom: 3rem;
+}
