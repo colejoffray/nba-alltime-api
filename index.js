@@ -64,7 +64,6 @@ app.get('/api/:name/:pos', (req,res) => {
     
 })
 
-console.log(teams[5]);
 
 
 app.listen(PORT, () => {
