@@ -6,12 +6,13 @@ const PORT = process.env.PORT || 4000
 
 
 
-
+app.use(express.static('public'))
 app.use(cors())
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
+
 
 app.get('/api', (req,res) => {
     res.json(teams)
@@ -63,14 +64,7 @@ app.get('/api/:name/:pos', (req,res) => {
     
 })
 
-
-// app.get('/api/:name', (req,res) => {
-//     const par = req.params.name.slice(1)
-//     const num = Math.floor(Math.random() * 30)
-    
-// })
-
-
+console.log(teams[5]);
 
 
 app.listen(PORT, () => {

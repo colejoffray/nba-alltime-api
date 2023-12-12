@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/basketball-icon-vector-6910947.jpg" type="image/jpg">
+    <title>NBA All-Time API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>NBA All Time API</h1>
+        <p>A simple API with the best all time rosters from all 30 NBA teams!</p>
+        <span>made by: Cole Joffray</span>
+    </div>
+
+    <main class="documentation">
+        <h1>Endpoints:</h1>
+        <div class="endpoint">
+            <h2>Get a random roster</h2>
+            <div class="url">
+                <span>https://nba-alltime.onrender.com/api/:random</span>
+            </div>
+            <p>By hitting this URL, the API will serve back data (roster) from a random NBA team. The response will be in json object format. This link is great for making trivia games!</p>
+            <div class="example">
+                <h3>Code example:</h3>
+                <h4>URL: https://nba-alltime.onrender.com/api/:random</h4>
+                <h4>RESPONSE:</h4>
+                <pre>
+                    <code>Roster {
+                        _teamname: 'boston celtics',
+                        _location: 'boston, massachusetts',
+                        _pg: Players {
+                          _name: 'Bob Cousy',
+                          _position: 'Point Guard',
+                          _yearsPlayed: '1950–1970',
+                          _height: `6'1"`,
+                          _weight: '175 lbs',
+                          _ppg: 18.4,
+                          _reb: 5.2,
+                          _ast: 7.5,
+                          _stl: 'unknown',
+                          _blk: 'unknown',
+                          _fg: '37.5%',
+                          _threePerc: 'n/a',
+                          _funFact: 'Averaged 18.4 points, 7.5 assists, and 5.2 rebounds in 924 regular-season games. He played a key role in winning 6 NBA championships and was selected to 13 All-Star games. He is a Hall of Famer since 1971.',
+                          _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fbob-cousy-boston-celtics-min--cm2fcatz.png&w=750&h=750&f=webp'
+                        },
+                        _sg: Players {
+                          _name: 'John Havlicek',
+                          _position: 'Shooting Guard / Small Forward',
+                          _yearsPlayed: '1962–1978',
+                          _height: `6'5"`,
+                          _weight: '203 lbs',
+                          _ppg: 20.8,
+                          _reb: 6.3,
+                          _ast: 4.8,
+                          _stl: 1.2,
+                          _blk: 0.3,
+                          _fg: '43.9%',
+                          _threePerc: 'n/a',
+                          _funFact: 'Averaged 20.8 points, 6.3 rebounds, and 4.8 assists in 1,270 regular-season games. He played a key role in winning 8 NBA championships and was selected to 13 All-Star games. He is a Hall of Famer since 1984.',
+                          _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fjohn-havlicek-boston-celtics-min--nguimcnj.png&w=750&h=750&f=webp'
+                        },
+                        _sf: Players {
+                          _name: 'Larry Bird',
+                          _position: 'Small Forward / Power Forward',
+                          _yearsPlayed: '1979–1992',
+                          _height: `6'9"`,
+                          _weight: '220 lbs',
+                          _ppg: 24.3,
+                          _reb: 10,
+                          _ast: 6.3,
+                          _stl: 1.7,
+                          _blk: 0.8,
+                          _fg: '49.6%',
+                          _threePerc: '37.6%',
+                          _funFact: 'Averaged 24.3 points, 10.0 rebounds, and 6.3 assists in 897 regular-season games. He won the Rookie of the Year award, 3 MVP awards, 2 Finals MVP awards, and 3 NBA championships. He is a Hall of Famer since 1998.',
+                          _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Flarry-bird-boston-celtics-min--bnnxfz4e.png&w=750&h=750&f=webp'
+                        },
+                        _pf: Players {
+                          _name: 'Kevin McHale',
+                          _position: 'Power Forward / Center',
+                          _yearsPlayed: '1980–1993',
+                          _height: `6'10"`,
+                          _weight: '210 lbs',
+                          _ppg: 17.9,
+                          _reb: 7.3,
+                          _ast: 1.7,
+                          _stl: 0.4,
+                          _blk: 1.7,
+                          _fg: '55.4%',
+                          _threePerc: '26.1%',
+                          _funFact: 'Averaged 17.9 points and 7.3 rebounds in 971 regular-season games. He won 2 Sixth Man of the Year awards and 3 NBA championships. He is a Hall of Famer since 1999.',
+                          _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkevin-mchale-boston-celtics-min--8wquc-sq.png&w=750&h=750&f=webp'
+                        },
+                        _c: Players {
+                          _name: 'Bill Russell',
+                          _position: 'Center / Power Forward',
+                          _yearsPlayed: '1956–1969',
+                          _height: `6'10"`,
+                          _weight: '215 lbs',
+                          _ppg: 15.1,
+                          _reb: 22.5,
+                          _ast: 4.3,
+                          _stl: 'unknown',
+                          _blk: 'unknown',
+                          _fg: '44%',
+                          _threePerc: 'n/a',
+                          _funFact: 'Averaged 22.5 rebounds, 15.1 points, and 4.3 assists in 963 regular-season games. He won 5 MVP awards and 11 NBA championships. He is a Hall of Famer since 1975.',
+                          _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fboston-celtics-bill-russell2022-min--49yqiroh.png&w=750&h=750&f=webp'
+                        },
+                        _sixthMan: Players {
+                          _name: 'Sam Jones',
+                          _position: 'Shooting Guard',
+                          _yearsPlayed: '1957–1969',
+                          _height: `6'4"`,
+                          _weight: '198 lbs',
+                          _ppg: 17.7,
+                          _reb: 4.9,
+                          _ast: 2.5,
+                          _stl: 'unknown',
+                          _blk: 'unknown',
+                          _fg: '45.6%',
+                          _threePerc: 'n/a',
+                          _funFact: 'Averaged 17.7 points, 4.9 rebounds, and 2.5 assists in 871 regular-season games. He won 10 NBA championships with his team. He is a Hall of Famer.',
+                          _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fsam-jones-boston-celtics-min--3mjatwmw.png&w=750&h=750&f=webp'
+                        }
+                      }</code>
+                </pre>
+                
+            </div>
+        </div>
+        <div class="endpoint">
+            <h2>get all teams</h2>
+            <div class="url">
+                <span>https://nba-alltime.onrender.com/api</span>
+            </div>
+        </div>
+        <div class="endpoint">
+            <h2>get a player by position</h2>
+            <div class="url">
+                <span>https://nba-alltime.onrender.com/api/:[team name]</span>
+            </div>
+            <div class="btn">
+              <button>Show Example</button>
+            </div>
+            
+            <div class="example">
+                <h3>Code example:</h3>
+                <h4>URL: https://nba-alltime.onrender.com/api/:cleveland cavaliers</h4>
+                <h4>RESPONSE:</h4>
+                <pre><code>Roster {
+                    _teamname: 'cleveland cavaliers',
+                    _location: 'cleveland ohio',
+                    _pg: Players {
+                      _name: 'Point Guard',
+                      _position: 'Kyrie Irving',
+                      _yearsPlayed: '2011&ndash;present',
+                      _height: `6'3&quot;`,
+                      _weight: '195 lbs',
+                      _ppg: 22.5,
+                      _reb: 3.7,
+                      _ast: 5.7,
+                      _stl: 1.3,
+                      _blk: 0.5,
+                      _fg: '48.7%',
+                      _threePerc: '39.0%',
+                      _funFact: 'Averaged 22.5 points, 5.7 assists, and 3.7 rebounds in 381 regular-season games. Known for exceptional ball-handling and clutch performances, this player won an NBA championship in 2016.',
+                      _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkyrie-irving-brooklyn-nets-min--9obzm4cp.png&amp;w=750&amp;h=750&amp;f=webp'
+                    },
+                    _sg: Players {
+                      _name: 'Shooting Guard',
+                      _position: 'Mark Price',
+                      _yearsPlayed: '1986&ndash;1998',
+                      _height: `6'0&quot;`,
+                      _weight: '170 lbs',
+                      _ppg: 15.2,
+                      _reb: 2.6,
+                      _ast: 6.7,
+                      _stl: 1.2,
+                      _blk: 0.2,
+                      _fg: '47.2%',
+                      _threePerc: '40.2%',
+                      _funFact: 'Averaged 15.2 points, 6.7 assists, and 2.6 rebounds in 722 regular-season games. Recognized as one of the best free-throw shooters in history.',
+                      _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fmark-price-cleveland-cavaliers-min--1dfjhtzo.png&amp;w=750&amp;h=750&amp;f=webp'
+                    },
+                    _sf: Players {
+                      _name: 'Small Forward / Power Forward',
+                      _position: 'LeBron James',
+                      _yearsPlayed: '2003&ndash;present',
+                      _height: `6'9&quot;`,
+                      _weight: '250 lbs',
+                      _ppg: 27,
+                      _reb: 7.4,
+                      _ast: 7.4,
+                      _stl: 1.6,
+                      _blk: 0.8,
+                      _fg: '50.4%',
+                      _threePerc: '34.5%',
+                      _funFact: 'Averaging 27.0 points, 7.4 rebounds, and 7.4 assists in over 1,300 regular-season games. Led the team to 1 NBA championship and selected to 16 All-Star games.',
+                      _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Flebron-james-cleveland-cavaliers-min--gpoz3jnb.png&amp;w=750&amp;h=750&amp;f=webp'
+                    },
+                    _pf: Players {
+                      _name: 'Power Forward',
+                      _position: 'Larry Nance',
+                      _yearsPlayed: '1981&ndash;1994',
+                      _height: `6'10&quot;`,
+                      _weight: '205 lbs',
+                      _ppg: 17.1,
+                      _reb: 8,
+                      _ast: 2.6,
+                      _stl: 1.6,
+                      _blk: 2.2,
+                      _fg: '54.7%',
+                      _threePerc: '27.3%',
+                      _funFact: 'Averaged 17.1 points, 8.0 rebounds, and 2.6 assists in 768 regular-season games. Known for shot-blocking abilities.',
+                      _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Flarry-nance-cleveland-cavaliers-min--8kldshsb.png&amp;w=750&amp;h=750&amp;f=webp'
+                    },
+                    _c: Players {
+                      _name: 'Center',
+                      _position: 'Zydrunas Ilgauskas',
+                      _yearsPlayed: '1997&ndash;2011',
+                      _height: `7'3&quot;`,
+                      _weight: '238 lbs',
+                      _ppg: 13,
+                      _reb: 7.3,
+                      _ast: 1.2,
+                      _stl: 0.5,
+                      _blk: 1.6,
+                      _fg: '47.7%',
+                      _threePerc: '32.2%',
+                      _funFact: 'Averaged 13.0 points, 7.3 rebounds, and 1.2 assists in 843 regular-season games. A two-time NBA All-Star.',
+                      _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fzydrunas-ilgauskas-cleveland-cavaliers-min--zbl0bnf7.png&amp;w=750&amp;h=750&amp;f=webp'
+                    },
+                    _sixthMan: Players {
+                      _name: 'Center',
+                      _position: 'Brad Daugherty',
+                      _yearsPlayed: '1986&ndash;1994',
+                      _height: `7'0&quot;`,
+                      _weight: '245 lbs',
+                      _ppg: 19,
+                      _reb: 9.5,
+                      _ast: 3.7,
+                      _stl: 0.8,
+                      _blk: 1.1,
+                      _fg: '53.2%',
+                      _threePerc: '35.3%',
+                      _funFact: 'Averaged 19.0 points, 9.5 rebounds, and 3.7 assists in 548 regular-season games. A five-time NBA All-Star.',
+                      _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fbrad-daugherty-cleveland-cavaliers-min--r6wvhfp9.png&amp;w=750&amp;h=750&amp;f=webp'
+                    }
+                  }</code></pre>
+            </div>
+        </div>
+        <div class="endpoint">
+            <h2>get a player by position</h2>
+            <div class="url">
+                <span>https://nba-alltime.onrender.com/api/:[team name]/:[position]</span>
+            </div>
+            <div class="example">
+                <h3>Code example:</h3>
+                <h4>URL: https://nba-alltime.onrender.com/api/:cleveland cavaliers/:pg</h4>
+                <h4>RESPONSE:</h4>
+                <pre>
+                    <code>Players {
+                        _name: 'Point Guard',
+                        _position: 'Kyrie Irving',
+                        _yearsPlayed: '2011–present',
+                        _height: `6'3"`,
+                        _weight: '195 lbs',
+                        _ppg: 22.5,
+                        _reb: 3.7,
+                        _ast: 5.7,
+                        _stl: 1.3,
+                        _blk: 0.5,
+                        _fg: '48.7%',
+                        _threePerc: '39.0%',
+                        _funFact: 'Averaged 22.5 points, 5.7 assists, and 3.7 rebounds in 381 regular-season games. Known for exceptional ball-handling and clutch performances, this player won an NBA championship in 2016.',
+                        _img: 'https://www.statmuse.com/_image?href=https%3A%2F%2Fcdn.statmuse.com%2Fimg%2Fnba%2Fplayers%2Fkyrie-irving-brooklyn-nets-min--9obzm4cp.png&w=750&h=750&f=webp'
+                      }</code>
+                </pre>
+                
+            </div>
+        </div>
+    </main>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+<script src="main.js"></script>
+</html>
