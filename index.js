@@ -3,6 +3,10 @@ const app = express()
 const cors = require('cors')
 const teams = require('./data')
 const PORT = process.env.PORT || 4000
+const compression = require('compression')
+
+//compress all http responses
+app.use(compression())
 
 
 
